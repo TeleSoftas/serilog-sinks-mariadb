@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using MySqlConnector;
+using System;
 using System.Threading;
-using System.Threading.Tasks;
-using MySql.Data.MySqlClient;
 
 namespace Serilog.Sinks.MariaDB
 {
