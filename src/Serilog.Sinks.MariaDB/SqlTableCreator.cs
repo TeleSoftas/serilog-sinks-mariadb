@@ -1,4 +1,9 @@
-﻿using MySqlConnector;
+﻿#if MySqlConnector
+using MySqlConnector;
+#else
+using MySql.Data.MySqlClient;
+#endif
+
 using System.Collections.Generic;
 using System.Text;
 

@@ -17,6 +17,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2714CE90-8E8D-43F2-871E-D71CA2BFFD77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{A7A62551-D71A-4662-B297-3AF357B075B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CombinedConfigDemo", "samples\CombinedConfigDemo\CombinedConfigDemo.csproj", "{AA8D155E-29A9-4957-90A1-8739297E9738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.SerilogDemo", "samples\AspNetCore.SerilogDemo\AspNetCore.SerilogDemo.csproj", "{24FDF3AA-6108-4311-A3EB-8D81A81E75CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Sinks.MariaDB.MySqlData", "src\Serilog.Sinks.MariaDB.MySqlData\Serilog.Sinks.MariaDB.MySqlData.csproj", "{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,12 +37,27 @@ Global
 		{1DC2F81C-C077-4369-92BF-BC9E3D9A63AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DC2F81C-C077-4369-92BF-BC9E3D9A63AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DC2F81C-C077-4369-92BF-BC9E3D9A63AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA8D155E-29A9-4957-90A1-8739297E9738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA8D155E-29A9-4957-90A1-8739297E9738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA8D155E-29A9-4957-90A1-8739297E9738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA8D155E-29A9-4957-90A1-8739297E9738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24FDF3AA-6108-4311-A3EB-8D81A81E75CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24FDF3AA-6108-4311-A3EB-8D81A81E75CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24FDF3AA-6108-4311-A3EB-8D81A81E75CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24FDF3AA-6108-4311-A3EB-8D81A81E75CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1DC2F81C-C077-4369-92BF-BC9E3D9A63AB} = {35F687F1-5A34-4A8A-954C-1501E527C277}
+		{AA8D155E-29A9-4957-90A1-8739297E9738} = {A7A62551-D71A-4662-B297-3AF357B075B7}
+		{24FDF3AA-6108-4311-A3EB-8D81A81E75CB} = {A7A62551-D71A-4662-B297-3AF357B075B7}
+		{E2CCD3AA-AE61-4D16-8643-8ED1901F1B2F} = {35F687F1-5A34-4A8A-954C-1501E527C277}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52F6A16C-55D2-40DC-9BE5-5254E37C7B59}

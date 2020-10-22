@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Linq;
-using MySqlConnector;
 using Serilog.Core;
 using Serilog.Debugging;
 using Serilog.Events;
+#if MySqlConnector
+using MySqlConnector;
+#else
+using MySql.Data.MySqlClient;
+#endif
 
 namespace Serilog.Sinks.MariaDB.Sinks
 {

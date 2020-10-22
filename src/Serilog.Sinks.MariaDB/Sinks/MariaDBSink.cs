@@ -2,7 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+#if MySqlConnector
 using MySqlConnector;
+#else
+using MySql.Data.MySqlClient;
+#endif
 using Serilog.Debugging;
 using Serilog.Events;
 using Serilog.Sinks.PeriodicBatching;
